@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1000px;
+    height: 1000px;
+}
+
+.container {
+    background: rgb(182, 7, 7);
+    width: 50%;
+    height: 50%;
+    position: relative;
+    color: white;
+}
+
+.wrapper {
+    background: rgba(0,0,0,0.2) fixed;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    right: 0;
+    color: white;
+}
+.container-paragraph {
+    position: absolute;
+    top: 35px;
+    left: 50px;
+}
+
+.paragraph-container {
+    position: relative;
+}
+.wrapper-paragraph {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
